@@ -1,0 +1,42 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+  
+.modal {
+  background-color: rgb(229, 142, 177);
+  padding: 8px;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  outline: none;
+  position: relative;
+}
+  
+.modalImg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+  
+.infoText {
+  margin-top: 15px;
+}
+  
+.modalText {
+  color: black;
+}
+  
+.span {
+  color: black;
+  font-weight: bold;
+}

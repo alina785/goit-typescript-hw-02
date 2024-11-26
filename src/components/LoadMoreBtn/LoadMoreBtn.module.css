@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: 1px solid;
+    background-color: transparent;
+    }
+    
+    .btn:hover {
+    border-color: rgb(255, 0, 136);
+    color: rgb(255, 0, 136);
+    }
